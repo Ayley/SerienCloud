@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.kleidukos.seriescloud.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.kleidukos.seriescloud.ui.SearchFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.kleidukos.seriescloud.ui.SettingsFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_settings"/>
+
+    <fragment
+        android:id="@+id/navigation_stream"
+        android:name="com.kleidukos.seriescloud.ui.StreamFragment"
+        android:label="Stream"
+        tools:layout="@layout/fragment_stream"/>
+
+    <fragment
+        android:id="@+id/navigation_favourite"
+        android:name="com.kleidukos.seriescloud.ui.FavouriteFragment"
+        android:label="Favourites"
+        tools:layout="@layout/fragment_favourite"/>
+
+</navigation>
